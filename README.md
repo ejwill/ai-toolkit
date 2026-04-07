@@ -20,6 +20,30 @@ This repo is intentionally broad. It started with OpenSCAD and MakerWorld skills
 - `skills/makerworld-listing`: MakerWorld listing copy, README text, customization guides, tags, and release notes.
 - `skills/makerworld-images`: MakerWorld listing images, covers, gallery sequencing, comparison images, and GIFs.
 
+## Install
+
+This repo is compatible with the `skills` CLI because skills live under `skills/` and each skill has a `SKILL.md` file.
+
+List available skills:
+
+```sh
+npx skills add ejwill/ai-toolkit --list
+```
+
+Install all skills globally for Codex:
+
+```sh
+npx skills add ejwill/ai-toolkit --skill '*' --global --agent codex --yes
+```
+
+Install one skill globally for Codex:
+
+```sh
+npx skills add ejwill/ai-toolkit --skill openscad-authoring --global --agent codex --yes
+```
+
+By default the CLI uses symlinks when possible, which keeps installed skills tied back to one canonical copy.
+
 ## Conventions
 
 Each skill should live in its own directory:
@@ -34,4 +58,3 @@ skills/
 ```
 
 Keep `SKILL.md` short and operational. Put longer explanations, examples, and checklists in adjacent reference files so agents can load only what they need.
-
