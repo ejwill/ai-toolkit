@@ -16,7 +16,7 @@ This repo is intentionally broad. It started with OpenSCAD and MakerWorld skills
 ## Current Skills
 
 - `skills/openscad-authoring`: general OpenSCAD structure, modular modeling, parameter organization, and maintainable source layout.
-- `skills/makerworld-open-scad`: MakerWorld-specific OpenSCAD export rules.
+- `skills/makerworld-openscad`: MakerWorld-specific OpenSCAD export rules.
 - `skills/makerworld-listing`: MakerWorld listing copy, README text, customization guides, tags, and release notes.
 - `skills/makerworld-images`: MakerWorld listing images, covers, gallery sequencing, comparison images, and GIFs.
 
@@ -58,3 +58,5 @@ skills/
 ```
 
 Keep `SKILL.md` short and operational. Put longer explanations, examples, and checklists in adjacent reference files so agents can load only what they need.
+
+Use lowercase kebab-case for skill directories and skill names. Treat product names as one token when that is how the project writes them, such as `openscad` rather than `open-scad`.

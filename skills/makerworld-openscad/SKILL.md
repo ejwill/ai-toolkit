@@ -1,5 +1,5 @@
 ---
-name: makerworld-open-scad
+name: makerworld-openscad
 description: MakerWorld-specific OpenSCAD export rules including bundled upload files, multi-plate 3MF export, multi-color export, and user-uploaded files. Use when preparing OpenSCAD files for MakerWorld.
 ---
 
@@ -35,4 +35,4 @@ Use this skill when preparing OpenSCAD files for MakerWorld upload or export, es
 
 ## Reference
 
-See [MakerWorld OpenSCAD Guide](open_scad_guide.md).
+See [MakerWorld OpenSCAD Guide](openscad_guide.md).
